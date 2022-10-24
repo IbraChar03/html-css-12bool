@@ -6,14 +6,25 @@
 [class*="col-"]{
     background-color: #006cfa ;
     border: 1px solid white;
-    min-height: 80px;
+    min-height: 40px;
+    color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
     }
 .nest{
     background-color: #00e265;
     border: 1px solid #006cfa ;
-    min-height: 50px;
-     
+    min-height: 40px; 
+
 }
+.block{
+    display: block;
+}
+
 .marg{
     margin-bottom: 20px;
+}
+.padding{
+    padding: 20px;
 }
